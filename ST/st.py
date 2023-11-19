@@ -1,11 +1,11 @@
-import cv2 as cv
+import cv2
 import os
 import numpy as np
 import streamlit as st
 import openai
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Define criteria weights
 criteria_weights = {
@@ -88,7 +88,7 @@ def main():
         st.stop()
 
     # Read and process uploaded images
-    images = [cv.imdecode(np.fromstring(file.read(), np.uint8), cv.IMREAD_COLOR) for file in uploaded_files]
+    images = [cv2.imdecode(np.fromstring(file.read(), np.uint8), cv2.IMREAD_COLOR) for file in uploaded_files]
     image_names = [file.name for file in uploaded_files]
 
     # Display uploaded images with styled columns
