@@ -1,6 +1,6 @@
 streamlit
 numpy
 os-sys
-cv2
+opencv-python
 pip
 openai==0.28.0
