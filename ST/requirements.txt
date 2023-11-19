@@ -1,4 +1,0 @@
-numpy
-openai==0.28.0
-streamlit
-opencv-python
