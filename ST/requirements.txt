@@ -1,6 +1,0 @@
-streamlit
-numpy
-os-sys
-opencv-python
-openai==0.28.0
-pep517
