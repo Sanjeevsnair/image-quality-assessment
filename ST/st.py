@@ -5,7 +5,7 @@ import streamlit as st
 import openai
 
 # Set your OpenAI API key
-openai.api_key = os.getenv('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')
+openai.api_key = os.getenv('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')
 
 # Define criteria weights
 criteria_weights = {
