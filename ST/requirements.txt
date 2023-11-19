@@ -1,0 +1,5 @@
+streamlit
+numpy
+os
+cv2
+openai
