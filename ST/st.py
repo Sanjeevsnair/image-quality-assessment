@@ -1,4 +1,4 @@
-import cv2.cv2 as cv
+import cv2 as cv
 import os
 import numpy as np
 import streamlit as st
