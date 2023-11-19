@@ -1,4 +1,3 @@
 numpy
 openai==0.28.0
-opencv-python==4.8.0.76
 streamlit==1.0.0
