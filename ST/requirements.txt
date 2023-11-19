@@ -1,5 +1,4 @@
 numpy
 openai==0.28.0
-opencv-python
-streamlit==0.89.0
-opencv-python-headless
+opencv-python==4.2.0.32
+streamlit
