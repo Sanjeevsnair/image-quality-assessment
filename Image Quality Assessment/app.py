@@ -3,7 +3,7 @@ import os
 import numpy as np
 import streamlit as st
 import openai
-from config import OPENAI_API_KEY
+
 
 # Set your OpenAI API key
 openai.api_key = os.getenv('OPENAI_API_KEY')
